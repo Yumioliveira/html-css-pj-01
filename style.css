@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'pixel';
+    src: url(Symtext.ttf) format('truetype');
+}
+
+
+* {
+
+}
+
+:root {
+    ---cor1: #bfac8b;
+    ---cor2: #0c7e7e;
+    ---cor3: #134647;
+    ---cor4: #00272d;
+    ---cor5: #000706;
+
+    ---font: 'pixel';
+}
+
+body {
+    background-color: var(---cor4);
+    margin: 0%;
+}
+
+header {
+    font-family: var(---font);
+    font-size: 4em;
+    text-align: center;
+    margin: 0px;
+    padding: 40px 0px 40px 0px;
+    background-color: var(---cor5);
+    color: white;
+}
+
+nav {
+    padding: 10px;
+    background-color: var(---cor2);
+    text-align: center;
+
+}
+
+nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    padding: 5px 20px 5px 20px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    transition: 0.2s;
+
+}
+
+
+main {
+    margin: auto;
+    background-color: white;
+    min-width: 200px;
+    max-width: 1000px;
+    padding:  20px 20px 20px 20px;
+    margin-bottom: 50px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main h2 {
+    font-size: 3em;
+}
+
+main h3 {
+    font-size: x-large;
+    color: red;
+}
+
+main p {
+    font-size: 1.4rem;
+    text-indent: 30px;
+}
+
+main a {
+    font-size: x-large;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+main img {
+    width: 100%;
+}
+
+.primeiro_post {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+img {
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 80%;
+}
+
+div.video {
+    margin: auto;
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #000706;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 1%;
+    left: 1.5%;
+    width:97%;
+    height: 97%;
+}
+
+footer {
+    color:white;
+    background-color: var(---cor2);
+    padding-bottom: 30px;
+}
+
+footer p {
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+
+footer a {
+    margin-left: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    padding: 10px;
+    transition: 1.5s;
+    background-color: rgb(240, 128, 128);
+    border-radius: 10px;
+}
+footer  > a::after{
+    content: '\00A0\1F517';
+}
