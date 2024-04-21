@@ -27,10 +27,10 @@ body {
 
 header {
     font-family: var(---font);
-    font-size: 4em;
+    font-size: 3rem;
     text-align: center;
     margin: 0px;
-    padding: 40px 0px 40px 0px;
+    padding: 20px 0px 20px 0px;
     background-color: var(---cor5);
     color: white;
 }
@@ -62,13 +62,13 @@ main {
     background-color: white;
     min-width: 200px;
     max-width: 1000px;
-    padding:  20px 20px 20px 20px;
+    padding:  10px 20px 20px 20px;
     margin-bottom: 50px;
     border-radius: 0px 0px 10px 10px;
 }
 
 main h2 {
-    font-size: 3em;
+    font-size: 2rem;
 }
 
 main h3 {
