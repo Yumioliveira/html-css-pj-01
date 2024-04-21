@@ -26,14 +26,17 @@ body {
 }
 
 header {
+    col
+    justify-content: center;
     font-family: var(---font);
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     margin: 0px;
     padding: 20px 0px 20px 0px;
     background-color: var(---cor5);
     color: white;
 }
+
 
 nav {
     padding: 10px;
