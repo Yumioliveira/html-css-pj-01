@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.content {
+    width: 40%;
+    color: white;
+    background-image: linear-gradient(to right, #0234fb, #ab1414);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+@media (max-width: 920px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
